@@ -53,3 +53,39 @@ draft: true
 ---
 ```
 
+
+
+### Create remote github repo
+
+<img src="./my-first-post.assets/image-20230505185059866.png" alt="image-20230505185059866" style="zoom: 33%;" />
+
+
+
+### Add local repo to remote 
+
+```bash
+git remote set-url origin git@github.com:TOMYUE/first-blog.git
+git pull --rebase
+git pull --rebase origin main # add branch track
+git add .
+git commit -am "Feat: add github actions workflow, generate static website"
+git push -u origin main
+```
+
+
+
+### Add github actions
+
+![image-20230505185521564](./my-first-post.assets/image-20230505185521564.png)
+
+
+
+### Active github actions
+
+![image-20230505185558765](./my-first-post.assets/image-20230505185558765.png)
+
+
+
+### Open site
+
+<img src="./my-first-post.assets/image-20230505185659970.png" alt="image-20230505185659970" style="zoom:50%;" />
