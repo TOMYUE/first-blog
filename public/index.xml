@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TOM YUE Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on TOM YUE Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 May 2023 13:56:18 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post -- Build your own website using Hugo</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Fri, 05 May 2023 13:56:18 +0800</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>Introduction This is bold text, and this is emphasized text. Visit the Hugo website!
+All the website is implemented using Hugo, which is a better tool for fast deploying website.
+Implementation detail Prerequisites Before you begin this tutorial you must:
+Install Hugo (the extended edition) Install Git You must also be comfortable working from the command line.
+Create website directory hugo new site quickstart cd quickstart git init git submodule add https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
